@@ -1,0 +1,3 @@
+document.getElementById("seeMore").addEventListener("click", () => {
+  alert("More travel partners coming soon!");
+});
