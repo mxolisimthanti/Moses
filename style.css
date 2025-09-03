@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+header {
+  background: url('header-image.jpg') center/cover no-repeat;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.tagline h1 {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+.partners {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.activities {
+  padding: 40px 20px;
+  background-color: #f0f0f0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.activity {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  font-weight: 600;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+footer h4 {
+  margin-bottom: 10px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  margin-bottom: 6px;
+}
